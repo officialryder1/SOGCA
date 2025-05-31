@@ -133,26 +133,18 @@
       <div class="prose max-w-none m-5">
 
         <small>
-            <p class="text-sm text-orange-500 mb-2">Our Mission</p>
-        </small>
-        <p class="text-lg mb-4">
-          We are a community of believers dedicated to spreading the love of Christ and serving our local community. 
-          Founded in 1985, our church has been a beacon of hope and faith for generations.
-        </p>
-        <small>
             <p class="text-sm text-orange-500 mb-2">Our Vision</p>
         </small>
         <p class="text-lg mb-4">
-          Our mission is to create a welcoming environment where people can grow in their relationship with God, 
-          connect with others, and make a difference in the world around us.
+          To equip, train, and empower individuals for effective Christian ministry, ensuring they are deeply rooted in the Word of God and prepared to serve with integrity and excellence.
         </p>
         <small>
-            <p class="text-sm text-orange-500 mb-2">Our Identity</p>
+            <p class="text-sm text-orange-500 mb-2">Our Mission</p>
         </small>
-        <p class="text-lg">
-          Whether you're new to faith or have been walking with God for years, you'll find a home here among our 
-          diverse and loving congregation.
+        <p class="text-lg mb-4">
+          To provide a structured and comprehensive training program that integrates theological education, leadership development, spiritual discipline, and pastoral mentorship to raise competent ministers for the kingdom of God.
         </p>
+        
       </div>
       <div>
         <a href="/about" class="btn bg-orange-600/90 transform-3d hover:bg-orange-700 transition-all sm:float-start lg:float-end m-5">About</a>
@@ -208,7 +200,7 @@
   <div class="container mx-auto px-4 text-center mb-12">
     <h2 class="text-4xl font-bold mb-4 text-orange-600/90">Who We Are</h2>
     <p class="max-w-2xl mx-auto text-lg text-white">
-      We are a passionate team dedicated to delivering the best solutions for our clients. Our mix of expertise and creativity helps us make a difference.
+     We are a church called to raise strong men and women who will evangelize the world, lead with Kingdom authority, and create lasting impact, We believe in the power of the word of God to deliver and set-free lives and bring about total recovery and divine restoration, ensuring that everyone fulfils their God-given purpose, because there is no small person in our midst.
     </p>
   </div>
 

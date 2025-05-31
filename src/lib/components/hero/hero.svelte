@@ -3,7 +3,7 @@
 </script>
 
 <section class="relative h-screen flex flex-col mx-4 bg-cover bg-center bg-no-repeat " 
-     style="background-image: url('/member2.jpg');">
+     style="background-image: url('/daddy2.jpeg');">
   <Nav />
   
   <div class="mx-auto text-center px-4 max-w-4xl my-auto ">

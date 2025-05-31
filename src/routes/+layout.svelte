@@ -9,8 +9,8 @@
 <svelte:head>
 	<title>Welcome to SOGCA</title>
 	<meta name="description" content="SOGCA is a community of believers in Christ Jesus" />
-	<link rel="icon" href="/favicon.png" />
-	<link rel="apple-touch-icon" href="/favicon.png" />
+	<link rel="icon" href="/sogca_logo.png" />
+	<link rel="apple-touch-icon" href="/sogca_logo.png" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="theme-color" content="#ffffff" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="default" /><link rel="preconnect" href="https://fonts.googleapis.com">

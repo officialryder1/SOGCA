@@ -13,7 +13,6 @@
 
   
    
-
     // Fetch sermons from PocketBase
     async function loadSermons() {
         try {

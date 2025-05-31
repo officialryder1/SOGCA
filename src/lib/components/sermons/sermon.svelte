@@ -34,7 +34,7 @@
         <div class="text-center mb-10">
             <h2 class="text-3xl font-bold text-orange-500 mb-2">Recent Sermons</h2>
             <p class="text-gray-400 max-w-2xl mx-auto">Be inspired by our latest messages</p>
-            <a href="/e-library" class="btn btn-ghost btn-sm mt-4 text-orange-600 hover:text-orange-700">
+            <a href="/platform" class="btn btn-ghost btn-sm mt-4 text-orange-600 hover:text-orange-700">
                 View All Sermons
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
