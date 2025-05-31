@@ -11,6 +11,9 @@
     let topics = $state([])
     let filteredSermons = $state([]);
 
+  
+   
+
     // Fetch sermons from PocketBase
     async function loadSermons() {
         try {
@@ -45,6 +48,7 @@
     onMount(() => {
         loadSermons();
     });
+
 </script>
 
 <section class="py-12 bg-base-100 my-10">
@@ -101,12 +105,13 @@
                 <div class="lg:col-span-1 space-y-4 max-h-screen overflow-y-auto pr-2">
                     {#each filteredSermons as sermon}
                         <div 
-                            class={`card bg-base-200 shadow-md cursor-pointer transition-all ${selectedSermon?.id === sermon.id ? 'ring-2 ring-orange-500' : ''}`}
+                            class={`card bg-gray-900 shadow-md cursor-pointer transition-all ${selectedSermon?.id === sermon.id ? 'ring-2 ring-orange-500' : ''}`}
                             onclick={() => selectedSermon = sermon}
+                            id={sermon.id}
                         >
                             <div class="card-body p-4">
                                 <h3 class="card-title text-lg text-orange-500">{sermon.title}</h3>
-                                <div class="flex items-center text-sm text-gray-500 mt-1">
+                                <div class="flex items-center text-sm text-gray-300 mt-1">
                                     <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                                     </svg>
@@ -128,7 +133,7 @@
                         <div class="bg-black rounded-lg overflow-hidden shadow-xl">
                             <iframe 
                                 class="w-full aspect-video" 
-                                src={selectedSermon.youtude_id}
+                                src={selectedSermon.youtube_id}
                                 title={selectedSermon.title}
                                 frameborder="0" 
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 

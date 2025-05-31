@@ -11,7 +11,7 @@
     {
         name: 'Pst Uche',
         role: 'Head of Administration',
-        image: 'https://images.unsplash.com/photo-1524504388940-b1c1719a4dc8?ixlib=rb-4.0.4&auto=format&fit=crop&w=400&q=80'
+        image: '/pst_uche.jpeg'
     },
     {
         name: 'Apts Ken Nwakanma',
@@ -22,39 +22,39 @@
     {
         name: 'Pst Issac Sunday',
         role: 'Dean Facilities',
-        image: 'https://images.unsplash.com/photo-1544725176-6d2b6d856f96?ixlib=rb-4.0.4&auto=format&fit=crop&w=400&q=80'
+        image: '/pst_issac.jpeg'
     }
   ];
 
   let cards = [
     {
         title: 'Mission & Vision',
-        subtext: "empty for now",
+        subtext: "Our core value.",
         image: "/member1.jpg",
         href: "about"
     },
     {
         title: 'Ministries Calender',
-        subtext: "empty for now",
+        subtext: "Church program plans.",
         image: "/member3.jpg",
         href: "event"
     },
     {
         title: 'E-Library',
-        subtext: "empty for now",
+        subtext: "Feed your spirit with sermons.",
         image: "/member2.jpg",
         href: "resource"
     },
     {
         title: 'Resource',
-        subtext: "empty for now",
+        subtext: "Ministry resource for you. ",
         image: "/member5.jpg",
         href: "platform"
     }
   ]
 </script>
 
-<div in:fade>
+<div>
 <Hero />
 </div>
 
@@ -167,6 +167,7 @@
             src="/member3.jpg" 
             alt="Church congregation worshiping" 
             class="w-full h-auto rounded-lg"
+            loading="lazy"
           />
         </figure>
         <div class="card-body">
@@ -215,7 +216,7 @@
     {#each teamMembers as member}
       <div class="bg-gray-200 rounded-lg shadow hover:shadow-lg transition duration-300 p-6 flex flex-col items-center text-center">
         <div class="w-32 h-32 mb-4 overflow-hidden rounded-full border-4 border-orange-600/90">
-          <img src={member.image} alt={member.name} class="w-full h-full object-cover" />
+          <img src={member.image} alt={member.name} class="w-full h-full object-cover" loading="lazy" />
         </div>
         <h3 class="text-xl font-semibold mb-2 text-orange-700">{member.name}</h3>
         <p class="text-gray-600">{member.role}</p>

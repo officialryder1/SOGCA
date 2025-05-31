@@ -65,6 +65,7 @@
                                         src={pb.getFileUrl(sermon, sermon.thumbnail)} 
                                         alt={sermon.title}
                                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                                        loading="lazy"
                                     />
                                 {:else}
                                     <div class="bg-gray-300 w-full h-full flex items-center justify-center">

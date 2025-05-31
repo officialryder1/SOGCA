@@ -1,9 +1,10 @@
 <script>
-    import { pb } from '$lib/utils/pb'
+    import { pb } from "$lib/pb";
+    import { onMount } from 'svelte'
 
-    let event = $state([])
+    let events = $state([])
 
-    let formDate = $state({
+    let formData = $state({
         title: '',
         description: '',
         start_date: '',
@@ -14,12 +15,14 @@
 
     let editingId = $state(null)
 
+    
     async function loadEvents() {
         const result = await pb.collection('events').getList(1, 50, {
             sort: '-start_date'
         });
         events = result.items;
     }
+
     
     async function submitEvent() {
         try {
@@ -56,7 +59,7 @@
     
     async function deleteEvent(id) {
         if (confirm('Are you sure you want to delete this event?')) {
-            await pb.collection('church_events').delete(id);
+            await pb.collection('events').delete(id);
             await loadEvents();
         }
     }
@@ -73,11 +76,13 @@
         editingId = null;
     }
     
-    loadEvents();
+    onMount(() => {
+        loadEvents();
+    })
 </script>
 
 <div class="container mx-auto px-4 py-8">
-    <h1 class="text-3xl font-bold mb-8">Manage Church Events</h1>
+    <h1 class="text-3xl font-bold mb-8 mt-10 text-orange-500 text-shadow-2xs text-shadow-amber-50">Manage Church Events</h1>
     
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <!-- Event Form -->

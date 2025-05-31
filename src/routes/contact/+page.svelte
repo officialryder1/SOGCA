@@ -132,13 +132,15 @@
                             src="/liza_plaza.jpeg" 
                             alt="Our church building" 
                             class="object-cover rounded-lg shadow-md w-full h-full"
+                            loading="lazy"
                         />
                     </div>
                     <div class="aspect-w-4 aspect-h-3">
                         <img 
-                            src="/member2.jpg" 
+                            src="/church.jpeg" 
                             alt="Church interior" 
                             class="object-cover rounded-lg shadow-md w-full h-full"
+                            loading="lazy"
                         />
                     </div>
                     <div class="aspect-w-4 aspect-h-3">
@@ -146,6 +148,7 @@
                             src="/member1.jpg" 
                             alt="Church community" 
                             class="object-cover rounded-lg shadow-md w-full h-full"
+                            loading="lazy"
                         />
                     </div>
                 </div>

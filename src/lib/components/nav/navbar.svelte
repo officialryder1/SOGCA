@@ -42,6 +42,7 @@
             src="/sogca_logo.png"
             alt="SOGCA Icon"
             class="w-15 h-15 transition-transform group-hover:scale-110"
+            loading="lazy"
         >
         </a>
       
