@@ -99,7 +99,7 @@
                     <div class="relative rounded-xl overflow-hidden shadow-2xl">
                         <img 
                             class="w-full h-auto" 
-                            src="/apts.jpeg" 
+                            src="/set_man.jpeg" 
                             alt="Set Man" 
                         />
                         <div class="absolute inset-0 bg-gradient-to-t from-orange-900/80 via-orange-900/20 to-transparent"></div>

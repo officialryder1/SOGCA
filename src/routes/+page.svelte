@@ -11,7 +11,7 @@
     {
         name: 'Pst Uche',
         role: 'Head of Administration',
-        image: '/pst_uche.jpeg'
+        image: '/pst_uche2.jpeg'
     },
     {
         name: 'Apts Ken Nwakanma',
